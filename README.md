@@ -11,13 +11,13 @@ To connect local repo with git:
   git remote <name> <url>
 
 To pull changes from git:
-  git pull <url> <branch>
+  git pull (url) (branch)
 
 To change branch:
-  git checkout <branch>
+  git checkout (branch)
 
 To merge any branch with target (changed):
-  git merge <any branch>
+  git merge (any branch)
 
 To check file state (when "commit"):
   git status
@@ -25,23 +25,23 @@ To check file state (when "commit"):
 To add files to index:
   git add
 To remove:
-  git restore --staged <fileName>
+  git restore --staged (fileName)
 
 To check diff folder and last commit:
   git diff --cached
 
 To Commit:
-  git commit -m <message>
+  git commit -m (message)
 
 To push:
-  git push <repo url> <branch>
+  git push (repo url) (branch)
 
 To make new branch:
   git checkout...
-  git branch -b <name>
+  git branch -b (name)
 
 To remove branch:
-  git branch -d <name>
+  git branch -d (name)
 
 To rename branch:
-  git branch -m <name> <new name>
+  git branch -m (name) (new name)

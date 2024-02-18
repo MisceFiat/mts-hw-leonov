@@ -8,9 +8,7 @@ public class Main {
 
         for (int i = 3; i <= 10; i++) {
             if (i < 10){
-                System.out.println("Hello");
-            } else {
-                System.out.println("World");
+                System.out.println("do nothing");
             }
 
         }

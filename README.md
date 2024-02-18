@@ -8,7 +8,7 @@ To "turn on" git:
   git init
 
 To connect local repo with git:
-  git remote <name> <url>
+  git remote (name) (url)
 
 To pull changes from git:
   git pull (url) (branch)

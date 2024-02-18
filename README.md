@@ -38,7 +38,7 @@ To push:
 
 To make new branch:
   git checkout...
-  git branch -b (name)
+  git branch -b (name) - dont work
 
 To remove branch:
   git branch -d (name)

@@ -1,10 +1,10 @@
 package ru.mts;
 
 public class SetVariable {
-    private static String[] names = {"Sunny", "Honey", "Sweety", "Fluffy", "Funny", "Lucky", "Bubba", "Piggy", "Mouse"};
-    private static String[] breeds = {"blue", "white", "yellow", "black", "therier", "pink", "big","not wery big", "smol (not small)"};
-    private static String[] characters = {"lawful good", "neutral good", "chaotic good", "lawful neutral", "neutral neutral", "chaotic neutral", "lawful evil", "neutral evil", "chaotic evil"};
-    private static String[] costs = {"7", "9", "19","200","100500","97979","0.20063","80","80.1","80.2","2 beer"};
+    private static final String[] names = {"Sunny", "Honey", "Sweety", "Fluffy", "Funny", "Lucky", "Bubba", "Piggy", "Mouse"};
+    private static final String[] breeds = {"blue", "white", "yellow", "black", "therier", "pink", "big","not very big", "smol (not small)"};
+    private static final String[] characters = {"lawful good", "neutral good", "chaotic good", "lawful neutral", "neutral neutral", "chaotic neutral", "lawful evil", "neutral evil", "chaotic evil"};
+    private static final String[] costs = {"7", "9", "19","200","100500","97979","0.20063","80","80.1","80.2","2 beer"};
 
     public static String selectName(int l){
         return names[l];

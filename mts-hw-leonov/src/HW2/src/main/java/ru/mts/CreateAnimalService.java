@@ -12,7 +12,7 @@ public class CreateAnimalService {
     protected static void processCreation() {
         Random r = new Random();
 
-        int animalType = r.nextInt(5);
+        int animalType = r.nextInt(4);
         int numBreed = r.nextInt(SetVariable.breedCount());
         int numName = r.nextInt(SetVariable.nameCount());
         int numCost = r.nextInt(SetVariable.costCount());
@@ -70,7 +70,7 @@ public class CreateAnimalService {
         int i = 10;
         while (i > 0) {
             processCreation();
-            System.out.println("");
+            System.out.println();
             i--;
         }
     }

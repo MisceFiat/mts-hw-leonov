@@ -1,23 +1,25 @@
 package ru.mts;
 
-public class CreateAnimalServiceImpl extends CreateAnimalService{
-    int i;
-    public CreateAnimalServiceImpl(int countOfAnimals){
-        i = countOfAnimals;
-    }
+public class CreateAnimalServiceImpl implements CreateAnimalService{
+
+
     @Override
     public void createAnimals() {
+        int i = 10;
+        do{
+            Animal animal = AnimalFarm.processCreation();
+            AnimalFarm.callAnimal(animal);
+            System.out.println();
+            i--;
+        } while (i>0);
+    }
+
+    public void createAnimals(int i) {
         for (;i>0;i--){
-            processCreation();
-            System.out.println("");
+            Animal animal = AnimalFarm.processCreation();
+            AnimalFarm.callAnimal(animal);
+            System.out.println();
         }
     }
 
-    public void createAnimals(int count) {
-        do{
-            processCreation();
-            System.out.println("");
-            count--;
-        } while (count>0);
-    }
 }
